@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 18;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqdfq_GyW19bvrgFfhwE0EsNl_qB6voOiQ6w&s);    
+    width: 1600px;
+    backdrop-filter: blur(2px);
+}
+
+header {
+    backdrop-filter: blur(2px);
+
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiqezWVZ9DAQyIeb4yRbjt7RAFO913qj8re_-b_gblsc6SG6LpdrxZGNgVNck6gwSVjao&usqp=CAU); */
+    color: rgba(255, 255, 255, 0.181);
+    padding: 2px; 
+}
+
+nav ul {
+    text-shadow: 0px 0px 10px #8616a5,
+                 0px 0px 20px #640b5a,
+                 0px 0px 40px #a42abc;
+
+    backdrop-filter: blur(2px);
+    list-style-type: upper-roman;
+    text-align: center;
+}
+
+nav ul li {
+
+    display: inline-flex;
+    margin: 30px;
+}
+
+nav ul li a {
+    color: #effcfe;
+    text-decoration: double solid black;
+    font-weight: bolder;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+section#home {
+    background-image: url('https://img.freepik.com/free-vector/gradient-glassmorphism-background_23-2149447863.jpg'); 
+    background-size: 100%;
+}
+section#services {
+    background-repeat: no-repeat;
+
+    background-size: 100%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl4u76xJAm7BiHyeq_CQT4cuBP6bL9r1byrw&s);
+}
+
+section#about {
+    background-repeat: no-repeat;
+
+    background-size: 100%;
+    background-image: url('https://media.istockphoto.com/id/1440114432/vector/abstract-watercolor-rainbow-background.jpg?s=612x612&w=0&k=20&c=MDG64hMEdOozcGIihFrRzgtm3phZnP6SEtpU9g4b55A=');
+}
+
+section#contact {
+    background-repeat: no-repeat;
+
+    background-size: 100%;
+    background-image: url(https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_1280.png);
+
+}
+.submit:hover .stars {
+    display: flex;
+    filter: drop-shadow(0 0 10px #b90909);
+}
+a{
+    color: aliceblue;
+    
+    border-width: 3px solid black;
+}
